@@ -1,3 +1,5 @@
+package entidade;
+
 public class Produto {
     private String Nome, Categoria;
     private double Preco;
@@ -39,6 +41,11 @@ public class Produto {
     }
 
     public String toString(){
-        return "Produto -> " + "nome =" + Nome + " , categoria =" + Categoria + " , preco = R$" + Preco + " , quantDeEstoque = " + QuantDeEstoque + " .";
+        return "entidade.Produto -> " + "nome =" + Nome + " , categoria =" + Categoria + " , preco = R$" + Preco + " , quantDeEstoque = " + QuantDeEstoque + " .";
     }
+
+
+
+
+
 }

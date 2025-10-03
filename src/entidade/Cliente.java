@@ -1,3 +1,5 @@
+package entidade;
+
 public class Cliente {
     private String nome;
     private String cpf;
@@ -24,13 +26,13 @@ public class Cliente {
     }
     
     public void exibirDetalhes() {
-        System.out.println("Cliente:");
+        System.out.println("entidade.Cliente:");
         System.out.println("Nome: " + getNome());
         System.out.println("CPF: " + getCpf());
     }
     
     @Override
     public String toString() {
-        return "Cliente{nome='" + nome + "', cpf='" + cpf + "'}";
+        return "entidade.Cliente{nome='" + nome + "', cpf='" + cpf + "'}";
     }
 }
